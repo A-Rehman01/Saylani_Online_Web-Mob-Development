@@ -1,0 +1,52 @@
+
+figure{
+    text-align: center;
+    color:  #5743c9;
+    text-decoration: underline;
+}
+#Studentreg{
+    font-size: 23px;
+}
+form{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+.Submit{
+    font-size: 12px;
+}
+
+tr.spaceinrow>td{
+    padding-bottom: 1em;
+}
+.aligntopaddress{
+    vertical-align: text-top;
+}
+
+label{
+    margin-right: 20px;
+    
+}
+input{
+    width: 150px;
+}
+
+.genderspace,.coursesspace{
+    width: 12px;
+}
+
+.qualificationtop{
+    vertical-align: text-top;
+
+}
+
+#cneter{
+    text-align: center;
+}
+fieldset{
+    background-color: #5743c9;
+    color: white;
+    
+}
+
+
+
