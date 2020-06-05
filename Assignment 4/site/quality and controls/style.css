@@ -1,0 +1,318 @@
+*,html{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face{
+
+    font-family:'Roboto';
+
+    src: url('../fonts/RobotoSlab-VariableFont_wght.ttf');
+
+}
+@font-face{
+
+    font-family:'Memorial';
+
+    src: url('../fonts/Serif\ Memorial.ttf');
+
+}
+@font-face{
+
+    font-family:'jameel';
+
+    src: url('../fonts/Jameel\ Noori\ Nastaleeq.ttf');
+
+}
+
+/* *********************************** scroll Start ********************** */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.1);
+    color: #67F167;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  #myBtn:hover {
+    background-color: #67F167;
+    color: white;
+  }
+  
+  
+/* *********************************** scroll end ********************** */
+
+
+
+/* *********************************** NavBar Start ********************** */
+.dropdown-menu > .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu > .dropdown a::after {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: .9rem;
+    top: .9rem;
+  }
+  
+  .dropdown-menu > .dropdown .dropdown-menu {
+    top: -.7rem;
+    left: 100%;
+    border-radius: 0 .25rem .25rem .25rem;
+  }
+
+.navbar{
+    background-color: #504A4B;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 2px solid #67F167;
+}
+.nav-link{
+    color: white;
+    font-size: 12.5pt;
+    padding: 8px;
+}
+.nav-link:hover{
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(103, 241, 103);
+}
+.dropdown-item:hover{
+    color: white !important;
+    background-color: rgb(103, 241, 103);
+    
+}
+
+.nav-item{
+    margin-left: 9px;
+    margin-right: 9px;
+    
+}
+
+.nav-item:hover .dropdown-menu {    
+    display: block;
+}
+
+.dropdown-item:hover{
+    position: relative;
+    animation-name: text;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    
+
+}
+@keyframes text {
+    0%{
+        text-indent: 0px;
+    }
+    25%{
+        text-indent: 10px;
+    }
+    50%{
+        text-indent: 10px;
+    }
+    100%{
+        text-indent: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    
+    .navlogo{
+        margin: 0;
+    }
+    .nav-item{
+        margin: 0;
+    }
+    .nav-link{
+        font-size: 12pt;
+    }
+    
+
+}
+@media only screen and (max-width: 991px){
+    .navbar-nav{
+        margin-top: 10px;
+    }
+}
+
+
+.urduerite{
+    font-family:'jameel';
+    font-size: 15pt;
+}
+/* *********************************** NavBar End ********************** */
+
+/* *********************************** quality Info strt********************** */
+
+.discription{
+    padding: 10px 110px 10px 110px;
+    color: gray;
+    font-size: 12pt;
+}
+
+.Items-Heading{
+    text-align: center;
+    font-size: 26pt;
+    font-weight: bold;
+    font-family: 'Memorial';
+    margin-top: 55px;
+    position: relative;
+    animation-name: textspace;
+    animation-duration: 2s !important;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out !important;
+ 
+}
+
+@keyframes textspace {
+    0%{
+        letter-spacing: 0px;
+    }
+    50%{
+        letter-spacing: 5px;
+    }
+    100%{
+        letter-spacing: 0px;
+    }
+}
+
+.onlylogo{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.blue{
+    color: #2D59A0;
+    border-bottom: 2px solid #2D59A0;
+}
+.green{
+    color: #67F167;
+    border-bottom: 2px solid #67F167;
+}
+
+@media only screen and (max-width: 600px){
+    .discription{
+        padding: 0;
+        padding-left: 10px;
+        padding-right: 20px;
+        justify-content: center;
+    }
+}
+
+/* *********************************** Qaulity info end ********************** */
+
+@media only screen and (max-width: 400px){
+    
+    .Goalmsg{
+        font-size: 12pt !important;
+    }
+}
+
+
+/* *********************************** images strt ********************** */
+
+.galleryimges{
+    /* border: 2px solid red; */
+    box-shadow: 5px 5px 5px rgb(202, 199, 199);
+    width: 250px;
+    height: 170px;
+    margin-top: 25px;
+}   
+/* *********************************** images end ********************** */
+
+
+
+
+/* *********************************** footer Start ********************** */
+.Goalcon{
+    margin-top: 100px;
+}
+
+.Goal{
+    /* margin-top: 80px; */
+    margin: 0 auto;
+    background-color: #67F167;
+    border-radius: 5px;
+    color: white;
+}
+.Goalmsg{
+    font-size: 14pt;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    
+}
+.footersec{
+    
+    background-color: #504A4B;
+    
+}
+
+
+.footerdiv{
+    /* border: 2px solid firebrick; */
+    padding: 20px;
+    
+}    
+.footerblue,#footerbluee{
+    color: rgb(99, 124, 250); 
+    font-weight: bold;
+    font-family:'Roboto';
+    margin-bottom: 10px;
+    
+}
+#borderbo{
+    border-bottom: 2px solid    #67F167;
+
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.footerdiv ul{
+    list-style-type: none;
+}
+.footerdiv ul li{
+    color: white;
+}
+
+
+.footermages{
+    margin-right: 4px;
+
+}
+.footeradd{
+    
+    color: white;
+    border-top: 2px solid #67F167;
+    border-bottom: 2px solid #67F167;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   text-align: center;
+   font-weight: bold;
+   margin-left: 40px;
+   margin-right: 40px;
+}
+.footeradddic{
+    background-color: #504A4B;
+}
+
+
+
+.footerimagesicons{
+    margin: 8px;
+}
+.footericoncenter{
+    text-align: center;
+}
+/* *********************************** footer End ********************** */
