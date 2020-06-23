@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater_DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        
+        <div>
+            <p class="calname">Calculater</p>
+            <table>
+                <tr>
+                    <td colspan="5"><input id=result type="text"  readonly step="any"   class="result"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><button onclick="gettext('7')" class="number">7</button></td>
+                    <td><button onclick="gettext('8')" class="number">8</button></td>
+                    <td><button onclick="gettext('9')" class="number">9</button> </td>
+                    <td><button onclick="cleardata()" class="number"><b>c</b></button> </td>
+                    <td><button onclick="gettext('*')" class="number"><b>x</b></button></td>
+
+                </tr>
+                <tr>
+                    <td><button onclick="gettext('4')" class="number">4</button></td>
+                    <td><button onclick="gettext('5')" class="number">5</button></td>
+                    <td><button onclick="gettext('6')" class="number">6</button> </td>
+                    <td rowspan="3"><button onclick="gettext('+')" class="numberadd"> <b>+ </b></button> </td>
+                    <td><button onclick="gettext('/')" class="number"><b>/</b></button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="gettext('1')" class="number">1</button></td>
+                    <td><button onclick="gettext('2')" class="number">2</button></td>
+                    <td><button onclick="gettext('3')" class="number">3</button> </td>
+
+                    <td><button onclick="gettext('-')" class="number"><b>-</b></button></td>
+                </tr>
+                <tr>
+
+                    <td colspan="1"><button onclick="gettext('0')" class="numberzero">0</button></td>
+                    <td></td>
+                    <td><button onclick="gettext('.')" class="number"> <b> . </b></button> </td>
+
+                    <td><button onclick="gettextres()" class="number"> <b>= </b></button></td>
+                </tr>
+            </table>
+            <p> ☻ Abdul Rehman ☻ </p>
+            
+        </div>
+        
+    </div>
+    
+</body>
+<script src="app.js"></script>
+
+</html>
