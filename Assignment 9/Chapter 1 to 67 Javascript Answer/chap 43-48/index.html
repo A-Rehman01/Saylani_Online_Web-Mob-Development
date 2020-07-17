@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chap 43-18</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mobile">
+        <div>
+            <img width="230px" height="170px" onclick="mobile('Iphone 11')"
+                src="https://th.bing.com/th/id/OIP.WTehRns7F-4qvLS6Jxz4KQHaFj?w=220&h=180&c=7&o=5&dpr=1.56&pid=1.7"
+                alt="">
+            <p class="mobname" onclick="link('Iphone 11')"> Iphone 11 </p>
+        </div>
+        <div>
+            <img width="200px" height="170px" onclick="mobile('Iphone 8')"
+                src="https://th.bing.com/th/id/OIP.Gk67ZhimH_Uckz1MoaEejwHaFj?w=240&h=180&c=7&o=5&dpr=1.56&pid=1.7"
+                alt="">
+            <p class="mobname" onclick="link('Iphone 8')"> Iphone 8 </p>
+        </div>
+        <div>
+            <img width="180px" height="170px" onclick="mobile('Iphone 6')"
+                src="https://th.bing.com/th/id/OIP.qbyoBrASth-ayyXbi6GMQQHaGk?w=180&h=180&c=7&o=5&dpr=1.56&pid=1.7"
+                alt="">
+            <p class="mobname" onclick="link('Iphone 6')"> Iphone 6 </p>
+        </div>
+        <div>
+            <img width="180px" height="170px" onclick="mobile('Iphone 10')"
+                src="https://th.bing.com/th/id/OIP.iC3RKbULs060LxUHKxAmlgHaFv?w=193&h=180&c=7&o=5&dpr=1.56&pid=1.7"
+                alt="">
+            <p class="mobname" onclick="link('Iphone 10')"> Iphone 10 </p>
+        </div>
+    </div>
+
+
+    <div class="table">
+        <table id="table1" class="table1">
+            <tr>
+                <th>
+                    index
+                </th>
+                <th>
+                    name
+                </th>
+                <th>
+                    Class
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    0
+                </td>
+                <td>
+                    Jhone
+                </td>
+                <td>
+                    10
+                </td>
+                <td>
+                    <button onclick="DeleteRow(this)">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    1
+                </td>
+                <td>
+                    Doe
+                </td>
+                <td>
+                    9
+                </td>
+                <td>
+                    <button onclick="DeleteRow(this)">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2
+                </td>
+                <td>
+                    Mark
+                </td>
+                <td>
+                    6
+                </td>
+                <td>
+                    <button onclick="DeleteRow(this)">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    3
+                </td>
+                <td>
+                 james
+                </td>
+                <td>
+                    10
+                </td>
+                <td>
+                    <button onclick="DeleteRow(this)">Delete</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div class="img">
+        <img onmouseover="Changeimg(1)" onmouseout="Changeimg(0)"  id='img' src="https://th.bing.com/th/id/OIP.txF0n2Bqgfl4Wc2nK7pDCQHaK-?w=115&h=180&c=7&o=5&dpr=1.56&pid=1.7" alt="">
+    </div>
+
+    <div class="counter">
+        <div>
+       Value of Counter is  <span id="value">1</span>
+    </div>
+    <div>
+        <button onclick="Update('inc')">Increment</button>
+        <button onclick="Update('dec')">Decrement</button>
+    </div>
+    </div>    
+    <script src="app.js"></script>
+</body>
+
+</html>

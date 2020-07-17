@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chap 49-52</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="parentdiv">
+        <h1 class="headSing">
+            Sign Up
+        </h1>
+        <div class="childdiv">
+            <label class="label" for="Email">Email</label>
+            <br />
+            <input type="email" name="Email" id="Email" placeholder="...Text">
+        </div>
+        <div class="childdiv">
+            <label for="password">Password</label>
+            <br />
+            <input type="password" name="password" id="password" placeholder="...Password">
+        </div>
+        <div class="childdiv">
+            <label for="Rpassword">Repeat Password</label>
+            <br />
+            <input type="password" name="password" id="Rpassword" placeholder="...Repeat Password">
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" name="check" id="check">
+            Remember me
+        </div>
+        <div class="btndiv">
+            <button type="submit" class="Subbtn" onclick="Submit()"><a href="#">Submit</a></button>
+        </div>
+    </div>
+
+    <div>
+        <h3 class="headvirus">The Current Status of the CoVID-19 Pandemic</h3>
+        <p class="backend" id='backend'> CoVID-19 started infecting people in the city of Wuhan, China in mid-December
+            of 2019. Within a month,
+            more
+            than ten thousand people were infected and hundreds had died. The death rate was about 16% in the first two
+            weeks but reduced to about 4% by mid-February and currently stands at about 2%. The initial outbreak caused
+            many people to die who would have survived if they had received medical treatment. Unfortunately, the Wuhan
+            medical system was unable to treat the extremely large number of seriously ill people seeking help. Simply
+            put, the large number of seriously ill people greatly exceeded hospital capacity. Consequently, many people
+            who needed basic care for dehydration and fever could not find care. China now reports a death rate of 0.7%
+            outside of Hubei Province.
+            A death rate of 2% is about 13 times greater than the incidence of death from seasonal flu. During the last
+            flu season, 2018/2019, CDC reports 35 million Americans caught the flu and about 56,000 people died
+            establishing a death rate of 0.15%. If the same number of Americans, 35 million, became infected with
+            CoVID-19 and the death rate was actually 2%, CoVID-19 could be responsible for 700,000 deaths. However,
+            there are several reasons to believe that the death rate is much less than 2%.
+            <a href="#" onclick="Dispalyless()">Read less</a>
+        </p>
+
+        <p class="frontend" id="frontend">CoVID-19 started infecting people in the city of Wuhan, China in mid-December
+            of 2019. Within a month,
+            more
+            than ten thousand people were infected and hundreds had died. The death rate was about 16% in the first two
+            weeks but reduced to about 4% by mid-February and currently stands at about 2%. The initial outbreak caused
+            many people to die who would have survived if they had received medical treatment. Unfortunately, the Wuhan
+            medical system was unable to treat the extremely large number of seriously
+            <a href="#" onclick="Dispalyfull()">Read more</a> </p>
+        
+        <p class="backend" id="temp">CoVID-19 started infecting people in the city of Wuhan, China in mid-December
+        of 2019. Within a month,
+        more
+        than ten thousand people were infected and hundreds had died. The death rate was about 16% in the first two
+        weeks but reduced to about 4% by mid-February and currently stands at about 2%. The initial outbreak caused
+        many people to die who would have survived if they had received medical treatment. Unfortunately, the Wuhan
+        medical system was unable to treat the extremely large number of seriously
+        <a href="#" onclick="Dispalyfull()">Read more</a>
+        </p>
+
+    </div>
+
+    <div class="stutable">
+        <table id='Stutable'>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Class</th>
+            </tr>
+        </table>
+    </div>
+    <div class="moditable">
+        
+        <div class="formtable">
+            <h2>Student Form</h2>
+            <label for="id">ID</label>
+            <input type="text" name="id" id="id">
+
+            <br />
+            <label for="name">Name</label>
+            <input type="text" name="Name" id="name">
+
+            <br />
+            <label for="class">Class</label>
+            <input type="text" id="class">
+            <br />
+            <button class="substu" type="submit" onclick="SubmitStu()">Submit</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
