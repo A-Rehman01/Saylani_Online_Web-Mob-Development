@@ -1,0 +1,69 @@
+.heading{
+    text-align: center;
+    color: red;
+    text-shadow: 2px 2px 3px rgb(46, 43, 43);
+    font-weight: bold;
+    margin-top: 40px;
+}
+section{
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    width: 70%;
+}
+
+.data input{
+    border: none;
+    width: 50%;
+    padding: 4px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+
+.data{
+    display: flex ;
+    justify-content: center;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+}
+
+.list{
+    list-style-type: lower-alpha;
+    padding: 0;
+}
+.icons{
+    width: 15px;
+    height: 17px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.li{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(243, 241, 241);
+    margin: 5px;
+    padding: 7px;
+    border-radius: 10px;
+}
+.btnadd{
+    background-color: green;
+    border-radius: 10px;
+    padding: 4px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 30%;
+}
+
+.btndel{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 7px;
+    border: none;
+    width: 30%;
+}
+
