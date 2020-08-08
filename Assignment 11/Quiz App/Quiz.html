@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+    <title>Class 20</title>
+</head>
+
+<body onload="show(0)" id='body'>
+    <div class="Wrapper" id="beforebody">
+
+        <div class="header">
+            <div class="Heading">Welcome TO Rapid Fire Quiz
+                <div class="Update" id="total"></div>
+            </div>
+            <div>
+                <div class="Timimg">3:00</div>
+                <div class="Timimg"><span id='min'>1</span>:<span id='sec'>59</span></div>
+            </div>
+        </div>
+        <div class="body">
+            <h3 class="question" id="quest"></h3>
+            <hr />
+            <div class="container">
+                <div class="row" id="row">
+                </div>
+            </div>
+
+        </div>
+        <div class="btn">
+            <button onclick="next()">Submit</button>
+        </div>
+    </div>
+    <div id="afterbody"></div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
